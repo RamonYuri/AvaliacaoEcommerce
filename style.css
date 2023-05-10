@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 36.72px;
+    font-family: 'Inter', sans-serif;
+}
+
+.dg {
+    margin-left: 30px;
+    width: 33px;
+    height: 33px;
+}
+
+.name {
+    margin-left: -30px;
+    margin-top: 10px;
+    color: #C92071;
+    font-size: 36.39px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+}
+
+input::placeholder {
+    color: #878A99;
+}
+
+.pesquisa {
+    width: 603.72px;
+    height: 64.8px;
+    background-color: #F5F5FF;
+    border-radius: 8.64px;
+    border: none;
+    font-size: 17.28px;
+    color: #878A99;
+    outline-color: grey;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.icon {
+    position: relative;
+}
+
+label {
+    position: absolute;
+    top: 20px;
+    right: 20.7px;
+}
+
+.cadastro {
+    color: #474747;
+}
+
+.entrar {
+    width: 123.12px;
+    height: 43.2px;
+    border-radius: 8.64px;
+    border: none;
+    background-color: #C92071;
+    color: #F5F5F5;
+}
+
+.cart {
+    margin-right: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+}
+
+
+#nav,
+#a {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #474747;
+}
+
+#nav,
+#a:hover {
+    color: #C92071;
+}
+
+#a:focus {
+    color: #C92071;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #C92071;
+    font-size: 17.28px;
+    font-weight: 700;
+    letter-spacing: 0.81px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 69.12px;
+    line-height: 71px;
+    letter-spacing: 1.08px;
+    color: #1F1F1F;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+span {
+    display: flex;
+    margin-left: 40px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 19.44px;
+    line-height: 37px;
+
+
+    letter-spacing: 0.81px;
+
+}
+
+.ofertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+
+    width: 200px;
+    height: 43.2px;
+    border-radius: 8.64px;
+    border: none;
+    background-color: #C92071;
+    color: #F5F5F5;
+
+}
+
+.sapato {
+    width: 700px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+
+.ornamento {
+    width: 151.2px;
+    height: 151.2px;
+    margin-top: -950px;
+    margin-left: 1150px;
+}
+
+.content {
+    background-color: #F5F5F5;
+    /* margin-top: -100px;    */
+}
+
+.radios,input[type="radio"]{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: 10px;
+    
+}
